@@ -31,12 +31,50 @@
 }  */
 
 
+/* .hero-image {
+    background-image: url(../images/GuitarTree/614.jpg);
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+#lyrics{
+    /* background-image: url(../images/GuitarTree/614.jpg); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#events{
+    background-image: url(../images/james_portrait.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: auto; */
+    
+    
+}
 
-body, html {
+.eventsTable{
+    margin: 40px;
+    padding: 5px;
+}
+
+table{
+    /* margin: 40px; */
+    padding: 500px;
+    color: #e0e0e2;
+    padding: 50px 50px;
+}
+
+body {
     
     position: absolute;
     height: 100%;
     width: 100%;
+    background-color: #050505;
+    z-index: -1;
 
   
   }
@@ -54,7 +92,7 @@ body, html {
  right: 0; 
  bottom: 0;
  left: 0;
- /* padding: .5em; */
+ padding: .5em;
  background-color: rgba(43,65,98,.5);
  text-align: center;
   }
